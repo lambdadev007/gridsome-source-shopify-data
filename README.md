@@ -1,4 +1,4 @@
-# gridsome-source-shopify
+# gridsome-source-shopify-data
 
 > Shopify source plugin for Gridsome
 
@@ -16,12 +16,12 @@ This plugin supports the Storefront API's [`transformedSrc` image field](#transf
 ## Install
 yarn:
 ```bash
-yarn add gridsome-source-shopify
+yarn add gridsome-source-shopify-data
 ```
 
 npm:
 ```bash
-npm install gridsome-source-shopify
+npm install gridsome-source-shopify-data
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ npm install gridsome-source-shopify
 module.exports = {
   plugins: [
     {
-      use: 'gridsome-source-shopify',
+      use: 'gridsome-source-shopify-data',
       options: {
         storeName: '<my-store>', // OR
         storeUrl: 'https://<my-store>.myshopify.com',
